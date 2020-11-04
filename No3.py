@@ -1,3 +1,5 @@
+#Belum selesai
+
 x = ""
 n = int(input("Masukan banyak kata yang dialarang: "))
 
