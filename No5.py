@@ -1,13 +1,10 @@
-#belum selesai
-
-n = int(input("Masukan nilai n: "))
-temp, a, b, c = 0,0,1,0
-n = n**2
-
-for i in range(n):
-  temp = a + b
-  a = b
-  b = temp
-
-  print(a,b,temp)
-
+x = int(input("Masukan bilangan n: "))
+i = 0
+j = 1 
+y = x**2 + 1
+z = 0
+for i in range(y):
+  for j in range(y):
+    z = i+j
+    if(z == y and j > i):
+      print("{",i,",",j,"}", end=' ')
